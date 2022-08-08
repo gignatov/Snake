@@ -3,6 +3,56 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
+aclocal.m4
+autom4te*
+config.cache
+config.log
+config.status
+libtool
+Makefile
+Makefile.rules
+sdl2-config
+sdl2-config.cmake
+sdl2-config-version.cmake
+sdl2.pc
+SDL2.spec
+build
+gen
+Build
+buildbot
+
+*.so
+*.so.*
+*.dll
+*.exe
+*.o
+*.obj
+*.res
+*.lib
+*.a
+*.la
+*.dSYM
+*,e1f
+*,ff8
+*.lnk
+*.err
+*.exp
+*.map
+*.orig
+*~
+*.swp
+*.tmp
+*.rej
+
+# for CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+cmake_uninstall.cmake
+SDL2ConfigVersion.cmake
+.ninja_*
+*.ninja
+
 # User-specific files
 *.rsuser
 *.suo
